@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "https://your-render-backend-url.onrender.com/api/todos"; // Замените на ваш URL бэкенда
+const API_URL = "https://todo-app-0h5i.onrender.com"; // Замените на ваш URL бэкенда
 
 function App() {
   const [todos, setTodos] = useState([]);
